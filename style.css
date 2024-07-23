@@ -1,0 +1,38 @@
+.container{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 20px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: aliceblue;
+}
+input{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(226, 222, 222);
+    border-radius: 10px;
+
+
+}
+button{
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+
+}
+.accept{
+    background-color:greenyellow;
+}
+.decline{
+    background-color: red;
+}
